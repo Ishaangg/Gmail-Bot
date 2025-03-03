@@ -1,8 +1,8 @@
 const { google } = require('googleapis');
 
 // Your OAuth 2.0 credentials (should match your main app credentials)
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const CLIENT_ID = '';
+const CLIENT_SECRET = '';
 const REDIRECT_URI = 'http://localhost:3000/oauth2callback';
 
 /**
